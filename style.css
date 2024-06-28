@@ -746,10 +746,11 @@ body{
 }
 .contact-content p{
     padding-top: 20px;
-    font-size: clamp(12px, 1vw, 2vw);
+    font-size: clamp(14px, 1vw, 2vw);
     font-weight: 300;
     font-family: "Lato", sans-serif;
     color: white;
+    width: clamp(20rem ,40vw, 40vw);
 }
 .contact-container{
     width: 100%;
