@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
+}
+body{
+    overflow-x: hidden;
 }
 .navbar{
     display: flex;
@@ -13,7 +14,7 @@
     height: 10vh;
     position: fixed;
     z-index: 2;
-    width: 100%;
+    width: 100vw;
     transition: all 0.5s;
 }
 .nav-wrapper{
@@ -96,6 +97,7 @@
     align-items: center;
     justify-content: center;
     height: 68vh;
+    width: 100vw;
 }
 .banner{
     display: flex;
@@ -103,6 +105,7 @@
     align-items: center;
     flex-direction: column;
     height: 68vh;
+    width: 100vw;
     background-color: transparent;
 }
 .banner h1{
@@ -120,7 +123,7 @@
     color: white;
     font-size: clamp(11px, 2vw, 2rem);
     font-family: "Nanum Myeongjo", serif;
-    width: 900px;
+    width: 100vw;
     text-align: center;
 }
 .banner-btns{
@@ -181,6 +184,7 @@
     align-items: center;
     justify-content: center;
     height: clamp(50vh, 53vh, 70vh);
+    width: 100vw;
     background: rgb(241, 234, 230);
 }
 .promo-head h1{
@@ -310,6 +314,7 @@
     align-items: center;
     justify-content: center;
     height: clamp(58vh, 60vh, 150vh);
+    width: 100vw;
     overflow: hidden;
     background: rgb(241, 234, 230);
 }
@@ -845,6 +850,7 @@
 #footer{
     background: gray;
     padding: 70px 0;
+    width: 100vw;
 }
 .footer-container{
     max-width: 1170px;
@@ -937,7 +943,7 @@
         top: 10vh;
         gap: 0;
         flex-direction: column;
-        width: 100%;
+        width: 100vw;
         text-align: center;
         transition: 0.5s;
         background: rgba(0, 0, 0, 0.8);
