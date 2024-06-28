@@ -745,7 +745,8 @@ body{
     color: white;
 }
 .contact-content p{
-    font-size: clamp(14px, 1vw, 2vw);
+    padding-top: 20px;
+    font-size: clamp(12px, 1vw, 2vw);
     font-weight: 300;
     font-family: "Lato", sans-serif;
     color: white;
@@ -781,7 +782,7 @@ body{
 .contact-text{
     display: flex;
     margin-left: 20px;
-    font-size: 16px;
+    font-size: clamp(16px, 0.6vw, 0.9vw);
     font-family: "Lato", sans-serif;
     color: white;
     flex-direction: column;
@@ -792,12 +793,12 @@ body{
     color: white;
 }
 .contact-form{
-    width: 40%;
+    width: clamp(30vw, 40%, 40%);
     padding: 40px;
     background: white;
 }
 .contact-form h2{
-    font-size: 30px;
+    font-size: clamp(18px, 1.6vw, 2vw);
     color: #333;
     font-weight: 600;
     font-family: "Lato", sans-serif;
@@ -812,7 +813,7 @@ body{
 .contact-input textarea{
     width: 100%;
     padding: 5px 0;
-    font-size: 16px;
+    font-size: clamp(14px, 0.8vw, 1.2vw);
     margin: 10px 0;
     border: none;
     border-bottom: 2px solid #333;
@@ -823,7 +824,7 @@ body{
     position: absolute;
     left: 0;
     padding: 5px 0;
-    font-size: 16px;
+    font-size: clamp(13px, 0.8vw, 1.2vw);
     margin: 10px 0;
     pointer-events: none;
     transition: 0.5s;
@@ -834,12 +835,12 @@ body{
 .contact-input textarea:focus ~ span,
 .contact-input textarea:valid ~ span{
     color: rgb(223, 97, 14);
-    font-size: 12px;
+    font-size: clamp(10px, 0.6vw, 1vw);
     transform: translateY(-20px);
 }
 .contact-input input[type="submit"]
 {
-    width: 100px;
+    width: clamp(5rem ,5vw, 6vw);
     background: rgb(223, 97, 14);
     color: white;
     border: none;
@@ -1005,8 +1006,9 @@ body{
     }
     .contact-info,
     .contact-form{
-        width: 100%;
+        width: 90vw;
     }
+    
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
