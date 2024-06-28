@@ -54,6 +54,7 @@
 .cart-icon{
     color: white;
     transition: 0.7s ease;
+    padding-left: 40px;
 }
 .cart-icon:hover{
     color:rgb(223, 97, 14);
@@ -61,7 +62,6 @@
 .ham-menu{
     display: none;
     cursor: pointer;
-    padding-right: 40px;
 }
 .line{
     display: block;
